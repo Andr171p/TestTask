@@ -52,7 +52,7 @@ async def get_user(user_id: int) -> JSONResponse:
 async def get_users() -> JSONResponse:
     users = await orm_manager.get_users()
     response_data = [
-        UserResponse.model_validate(user) for user in users
+        UserResponse.model_validate(user).model_dump() for user in users
     ]
     return JSONResponse(
         content={
