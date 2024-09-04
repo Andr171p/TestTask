@@ -79,7 +79,7 @@ for i in range(count_of_fake_data):
         date=date
     ))'''
 
-import asyncio
+'''import asyncio
 
 
-print(asyncio.run(orm_manager.get_users()))
+print(asyncio.run(orm_manager.get_users()))'''
