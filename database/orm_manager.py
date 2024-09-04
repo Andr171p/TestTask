@@ -56,30 +56,3 @@ class ORMManager(DatabaseSessionManager):
 
 
 orm_manager = ORMManager()
-
-
-'''import asyncio
-from faker import Faker
-import random
-# orm_manager = ORMManager()
-faker = Faker()
-heights = [1.75, 2.01, 1.64, 1.55, 1.87]
-count_of_fake_data = 5
-for i in range(count_of_fake_data):
-    user_id = faker.random_int(min=1000, max=9999)
-    name = faker.first_name()
-    age = faker.random_int(min=18, max=99)
-    height = random.choice(heights)
-    date = str(faker.date_time_this_century())
-    asyncio.run(orm_manager.create_user(
-        user_id=user_id,
-        name=name,
-        age=age,
-        height=height,
-        date=date
-    ))'''
-
-'''import asyncio
-
-
-print(asyncio.run(orm_manager.get_users()))'''
