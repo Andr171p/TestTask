@@ -9,4 +9,4 @@ def str_to_timestamp(date: str):
     return timestamp
 
 
-# print(type(str_to_timestamp(date='2008-11-26 15:47:01')))
+print(str_to_timestamp(date='2008-11-26 15:47:01'))

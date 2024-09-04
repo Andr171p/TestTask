@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e423f54e-3269-492f-a715-30adc6c68d8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e423f54e-3269-492f-a715-30adc6c68d8a" name="Changes" comment="version 1.1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/request_schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/request_schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/response_schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/response_schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/models/table_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/models/table_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/orm_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/orm_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/misc/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/misc/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,6 +197,37 @@
       <option name="presentableId" value="Default" />
       <updated>1716726561738</updated>
     </task>
+    <task id="LOCAL-00001" summary="version 1.0">
+      <option name="closed" value="true" />
+      <created>1725460102890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725460102890</updated>
+    </task>
+    <task id="LOCAL-00002" summary="version 1.1">
+      <option name="closed" value="true" />
+      <created>1725460263787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725460263787</updated>
+    </task>
+    <task id="LOCAL-00003" summary="version 1.1.1">
+      <option name="closed" value="true" />
+      <created>1725460435783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725460435783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 1.0" />
+    <MESSAGE value="version 1.1" />
+    <MESSAGE value="version 1.1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.1.1" />
   </component>
 </project>

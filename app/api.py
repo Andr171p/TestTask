@@ -31,7 +31,7 @@ async def get_hello_world() -> JSONResponse:
     )
 
 
-@router.get("/{user_id}/", response_model=APIUserResponse)
+@router.get("/get_user/{user_id}/", response_model=APIUserResponse)
 async def get_user(user_id: int) -> JSONResponse:
     user = await orm_manager.get_user(user_id=user_id)
     if not user:
